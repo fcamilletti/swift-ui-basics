@@ -16,6 +16,7 @@
 		9DA600312695B91500029375 /* Programmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA600302695B91500029375 /* Programmer.swift */; };
 		9DA6003B2695BBE200029375 /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA6003A2695BBE200029375 /* RowView.swift */; };
 		9DBA3368268DD1AC00261969 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBA3367268DD1AC00261969 /* MapView.swift */; };
+		9DDF4C2326B81D410016D02D /* StateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDF4C2226B81D410016D02D /* StateView.swift */; };
 		9DF95D84268C87CD005A67A7 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF95D83268C87CD005A67A7 /* ImageView.swift */; };
 		9DF9EC17269468CE0053FA10 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF9EC16269468CE0053FA10 /* MainView.swift */; };
 /* End PBXBuildFile section */
@@ -32,6 +33,7 @@
 		9DA600302695B91500029375 /* Programmer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programmer.swift; sourceTree = "<group>"; };
 		9DA6003A2695BBE200029375 /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
 		9DBA3367268DD1AC00261969 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		9DDF4C2226B81D410016D02D /* StateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateView.swift; sourceTree = "<group>"; };
 		9DF95D83268C87CD005A67A7 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		9DF9EC16269468CE0053FA10 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -50,6 +52,7 @@
 		9D1CEF6D2689D6C000A4E863 = {
 			isa = PBXGroup;
 			children = (
+				9DDF4C2126B81C810016D02D /* PropertyWrappers */,
 				9DA6002F2695B8FB00029375 /* Data */,
 				9D1CEF782689D6C000A4E863 /* SwiftUITutorial */,
 				9D1CEF7F2689D6C100A4E863 /* Preview Content */,
@@ -96,6 +99,14 @@
 				9DA600302695B91500029375 /* Programmer.swift */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		9DDF4C2126B81C810016D02D /* PropertyWrappers */ = {
+			isa = PBXGroup;
+			children = (
+				9DDF4C2226B81D410016D02D /* StateView.swift */,
+			);
+			path = PropertyWrappers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,6 +180,7 @@
 			files = (
 				9D322B22269F3FF4003390FE /* ListView.swift in Sources */,
 				9DF95D84268C87CD005A67A7 /* ImageView.swift in Sources */,
+				9DDF4C2326B81D410016D02D /* StateView.swift in Sources */,
 				9DA600312695B91500029375 /* Programmer.swift in Sources */,
 				9DA6003B2695BBE200029375 /* RowView.swift in Sources */,
 				9DBA3368268DD1AC00261969 /* MapView.swift in Sources */,
