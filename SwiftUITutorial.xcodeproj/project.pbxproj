@@ -18,6 +18,7 @@
 		9DBA3368268DD1AC00261969 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBA3367268DD1AC00261969 /* MapView.swift */; };
 		9DDF4C2326B81D410016D02D /* StateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDF4C2226B81D410016D02D /* StateView.swift */; };
 		9DE0926B26C290DD0043A264 /* BindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE0926A26C290DD0043A264 /* BindingView.swift */; };
+		9DED216E26CBD5140058B468 /* EnviromentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DED216D26CBD5140058B468 /* EnviromentView.swift */; };
 		9DF95D84268C87CD005A67A7 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF95D83268C87CD005A67A7 /* ImageView.swift */; };
 		9DF9EC17269468CE0053FA10 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF9EC16269468CE0053FA10 /* MainView.swift */; };
 /* End PBXBuildFile section */
@@ -36,6 +37,7 @@
 		9DBA3367268DD1AC00261969 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		9DDF4C2226B81D410016D02D /* StateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateView.swift; sourceTree = "<group>"; };
 		9DE0926A26C290DD0043A264 /* BindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingView.swift; sourceTree = "<group>"; };
+		9DED216D26CBD5140058B468 /* EnviromentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnviromentView.swift; sourceTree = "<group>"; };
 		9DF95D83268C87CD005A67A7 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		9DF9EC16269468CE0053FA10 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -108,6 +110,7 @@
 			children = (
 				9DDF4C2226B81D410016D02D /* StateView.swift */,
 				9DE0926A26C290DD0043A264 /* BindingView.swift */,
+				9DED216D26CBD5140058B468 /* EnviromentView.swift */,
 			);
 			path = PropertyWrappers;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 				9DF95D84268C87CD005A67A7 /* ImageView.swift in Sources */,
 				9DDF4C2326B81D410016D02D /* StateView.swift in Sources */,
 				9DA600312695B91500029375 /* Programmer.swift in Sources */,
+				9DED216E26CBD5140058B468 /* EnviromentView.swift in Sources */,
 				9DA6003B2695BBE200029375 /* RowView.swift in Sources */,
 				9DBA3368268DD1AC00261969 /* MapView.swift in Sources */,
 				9D1CEF7C2689D6C000A4E863 /* ContentView.swift in Sources */,
